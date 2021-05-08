@@ -1,2 +1,4 @@
 # Riddit
-remove main feeds on reddit.com
+Remove main feeds on reddit.com.
+
+Comment sections and wikis are not removed.
