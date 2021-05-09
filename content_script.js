@@ -22,7 +22,7 @@ function ridFeed() {
 function allowedUrl() {
     try {
         var url = window.location.toString();
-        const allowed = new RegExp('comments+|wiki+');
+        const allowed = new RegExp('comments+|wiki+|submit+');
         return allowed.test(url);
     } catch (error) {
         return true
